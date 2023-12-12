@@ -1,0 +1,13 @@
+[DefaultDispatcher-worker-1] INFO  ExecLogger [] - Connection to SuiteAPI succeeded in 0.233 seconds
+[DefaultDispatcher-worker-1] INFO  com.vmware.tvs.vrealize.adapter.core.UnlicensedAdapter [] - Starting test.
+[DefaultDispatcher-worker-1] INFO  com.vmware.tvs.vrealize.adapter.core.UnlicensedAdapter [] - Starting configuration.
+[DefaultDispatcher-worker-1] INFO  com.vmware.tvs.vrealize.adapter.core.UnlicensedAdapter [] - Adapter Name: [MPBAdapter], version: [1.0], build: [0.1]
+[DefaultDispatcher-worker-1] INFO  com.vmware.tvs.vrealize.adapter.core.UnlicensedAdapter [] - Adapter Ref: [1.1.0-hotfix-1], Build Tools Ref: [N/A], Core Ref: [7.1.0]
+[DefaultDispatcher-worker-1] INFO  com.vmware.tvs.vrealize.adapter.core.UnlicensedAdapter [] - Finished configuration.
+[DefaultDispatcher-worker-1] INFO  com.vmware.tvs.vrealize.adapter.core.UnlicensedAdapter [] - Test passed.
+[DefaultDispatcher-worker-1] INFO  com.vmware.mpb.impl.MBPCollector [] - Running collection
+[DefaultDispatcher-worker-1] INFO  com.vmware.mpb.impl.MBPCollector [] - Getting VMware Aria Operations Resources via Suite API
+[DefaultDispatcher-worker-1] INFO  com.vmware.mpb.impl.MBPCollector [] - Collecting resources defined by this adapter
+[DefaultDispatcher-worker-1] INFO  com.vmware.mpb.impl.MBPCollector [] - Extending existing VMware Aria Operations resources
+[DefaultDispatcher-worker-1] INFO  com.vmware.mpb.impl.MBPCollector [] - Creating relationships
+[DefaultDispatcher-worker-1] INFO  ExecLogger [] - Collection complete
