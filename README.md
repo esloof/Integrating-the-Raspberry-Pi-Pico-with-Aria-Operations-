@@ -8,3 +8,5 @@ Creating a management pack for Aria Operations involves so many steps that I’v
 Before I started writing these articles, I’ve built a working prototype. The reason I’ve built this prototype was, to see if it's even possible to get everything to work. The prototype was also used during a recent training course delivery of the VMware vRealize Operations: Advanced Use Cases [v8.x].
 
 The beta version of the Python code, including a working PAK file and some screenshots, are already available on GitHub. In upcoming articles, I’ll enhance the code and create new versions. Currently, the roadmap contains an API with authentication, dashboards, events, alerts, etc. Feel free to bring up any suggestions on my X channel or in the comments on GitHub.
+
+https://www.ntpro.nl/blog/archives/3735-Integrating-the-Raspberry-Pi-Pico-with-Aria-Operations-Introduction.html
