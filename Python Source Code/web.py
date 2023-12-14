@@ -65,8 +65,8 @@ def index(request):
     pico_temperature = 27 - (reading - 0.706)/0.001721
     measurements = dht20.measurements
     #print(f"Temperature: {measurements['t']} °C, humidity: {measurements['rh']} %RH")
-    temperature = {measurements['t']}
-    humidity = {measurements['rh']}
+    temperature = measurements['t']
+    humidity = measurements['rh']
     msg = {"pico_temperature":pico_temperature, "temperature":temperature, "humidity":humidity }
     print (msg)
     response = json.dumps(msg)
@@ -76,7 +76,8 @@ def index(request):
 def index(request):
     potval = GP26.read_u16() # Rotary Angle Sensor
     micval = GP27.read_u16() # Grove - Sound Sensor
-    msg = {"pot":potval,"mic":micval}
+    lightval = GP28.read_u16() #Grove - Light Sensor
+    msg = {"pot":potval,"mic":micval, "light":lightval}
     print (msg)
     response = json.dumps(msg)
     return response, {'Content-Type': 'application/json'}    
@@ -167,3 +168,6 @@ def control_display(request):
     return {'success': True}, {'Content-Type': 'application/json'}
 
 app.run(port=80)
+
+    
+    
