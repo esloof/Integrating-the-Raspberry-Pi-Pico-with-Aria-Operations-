@@ -1,0 +1,14 @@
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - REQUEST: http://192.168.178.46:80/api/memory
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - METHOD: HttpMethod(value=GET)
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - COMMON HEADERS
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - -> Accept: application/json
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - -> Accept-Charset: UTF-8
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - CONTENT HEADERS
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - -> Content-Length: 0
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - RESPONSE: 200 OK
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - METHOD: HttpMethod(value=GET)
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - FROM: http://192.168.178.46:80/api/memory
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - COMMON HEADERS
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - -> Content-Length: 18
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - -> Content-Type: application/json
+[DefaultDispatcher-worker-2] DEBUG ExecLogger [] - GET http://192.168.178.46:80/api/memory completed in 0.157 seconds
